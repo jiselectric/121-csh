@@ -4,8 +4,8 @@
       <v-app-bar>
         <v-app-bar-nav-icon class="grey--text" @click="drawer = !drawer"></v-app-bar-nav-icon>
         <v-toolbar-title class="text-uppercase black--text">
-          <span class="font-weight-light"> 121 CSH </span>
-          <span> Integrated Management System </span>
+          <span class="font-weight-light"> 121 </span>
+          <span> CSH </span>
         </v-toolbar-title>
 
         <v-spacer></v-spacer>
