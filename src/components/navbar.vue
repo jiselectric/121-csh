@@ -1,13 +1,13 @@
 <template>
   <nav>
-    <v-app-bar flat app>
+    <v-app-bar text app>
       <v-app-bar-nav-icon class="grey--text" @click="drawer = !drawer"></v-app-bar-nav-icon>
       <v-toolbar-title class="text-uppercase black--text">
         <span class="font-weight-light"> 121 CSH </span>
         <span> ITMS </span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn flat color="grey">
+      <v-btn text color="grey">
         <span> Sign In </span>
         <v-icon right> account_box </v-icon>
       </v-btn>
@@ -36,8 +36,8 @@ export default {
     return {
       drawer: false,
       items: [
-        { icon: 'schedule', text: 'Schedule', route: '/' },
         { icon: 'announcement', text: 'Announcement', route: '/announcement' },
+        { icon: 'schedule', text: 'Today', route: '/' },
         { icon: 'event', text: 'Calendar', route: '/calendar' },
         { icon: 'search', text: 'Detail', route: '/detail' }
       ]

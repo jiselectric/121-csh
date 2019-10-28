@@ -1,6 +1,6 @@
 <template>
   <div class='detail'>
-    <h1 class="subheading indigo--text"> Detail </h1>
+    <h2 class="subheading grey--text"> Detail </h2>
 
      <v-container class="my-5">
       content

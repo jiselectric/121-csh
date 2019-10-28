@@ -1,6 +1,6 @@
 <template>
   <div class='calendar'>
-    <h1 class="subheading indigo--text"> Calendar </h1>
+    <h2 class="subheading grey--text"> Calendar </h2>
 
      <v-container class="my-5">
       content
